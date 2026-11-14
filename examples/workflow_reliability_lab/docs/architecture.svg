@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Synthetic order notification workflow</title>
+<desc id="desc">A fictional workflow from paid order event through validation, notification creation and destination acknowledgement, with an exception queue for failed hand-offs.</desc>
+<rect width="1200" height="420" rx="24" fill="#f4f7fa"/>
+<text x="60" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#102a43">Workflow Reliability Lab</text>
+<text x="60" y="91" font-family="Arial, sans-serif" font-size="16" fill="#526579">A synthetic example — event success is not the same as delivery success</text>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<rect x="55" y="160" width="190" height="110" rx="16" fill="#d9edf0" stroke="#2a7f87" stroke-width="2"/>
+<text x="150" y="202" font-size="20" font-weight="700" fill="#102a43">Order event</text><text x="150" y="232" font-size="15" fill="#36566d">Paid / captured</text>
+<rect x="330" y="160" width="190" height="110" rx="16" fill="#e7eaf3" stroke="#52658a" stroke-width="2"/>
+<text x="425" y="202" font-size="20" font-weight="700" fill="#102a43">Validate</text><text x="425" y="232" font-size="15" fill="#36566d">ID · status · time</text>
+<rect x="605" y="160" width="190" height="110" rx="16" fill="#e7f2e9" stroke="#39845b" stroke-width="2"/>
+<text x="700" y="202" font-size="20" font-weight="700" fill="#102a43">Notify queue</text><text x="700" y="232" font-size="15" fill="#36566d">Create message</text>
+<rect x="880" y="160" width="250" height="110" rx="16" fill="#fff0d9" stroke="#c77a22" stroke-width="2"/>
+<text x="1005" y="202" font-size="20" font-weight="700" fill="#102a43">Confirm hand-off</text><text x="1005" y="232" font-size="15" fill="#36566d">Destination ACK</text>
+<g stroke="#526579" stroke-width="4" fill="none"><path d="M245 215 H320"/><path d="M520 215 H595"/><path d="M795 215 H870"/></g>
+<g fill="#526579"><path d="M310 205 l12 10 -12 10z"/><path d="M585 205 l12 10 -12 10z"/><path d="M860 205 l12 10 -12 10z"/></g>
+<rect x="380" y="320" width="440" height="60" rx="14" fill="#fde7e5" stroke="#c65a52" stroke-width="2"/>
+<text x="600" y="357" font-size="18" font-weight="700" fill="#8b302b">Exceptions → visible queue → named owner</text>
+<path d="M700 270 V298 H600 V310" stroke="#c65a52" stroke-width="3" fill="none" stroke-dasharray="7 6"/>
+</g>
+</svg>
