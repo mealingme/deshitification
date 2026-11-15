@@ -1,38 +1,47 @@
-# Deshitification — Practical Workflow Audit Starter
+# Deshitification — Practical Workflow Improvement & AI Education
 
-A small, transparent Python example for measuring a fictional order-fulfilment workflow before deciding whether to automate it.
+A collection of practical educational material and small, transparent tools for understanding workflows, measuring automation reliability and applying AI responsibly.
 
-**Purpose:** demonstrate practical process measurement, exception visibility and human-led improvement using synthetic data only.
+**Purpose:** explain how to fix, simplify, automate and secure business processes using evidence-led methods and synthetic examples.
 
-## What it does
-- Reads a CSV of fictional orders.
+## Repository map
+- `articles/educational/` — evergreen guides and practical explainers, one Markdown file per article.
+- `articles/current-affairs/YYYY/` — time-sensitive technology and AI analysis, grouped by year.
+- `articles/templates/` — reusable article structure and editorial conventions.
+- `diagrams/` — original diagram source files and exports, grouped by topic.
+- `workflow_audit.py` — simple synthetic order-fulfilment workflow audit.
+- `examples/` — synthetic workflow examples, including the Workflow Reliability Lab.
+- `docs/` — checklists and safe-demonstration guidance.
+- `tests/` and `.github/workflows/` — automated tests and CI.
+- `reports/` — local/generated reports; do not commit real operational data.
+
+See [the article library guide](articles/README.md) for article organisation and status conventions.
+
+## What the workflow audit demonstrates
+- Reads fictional CSV data.
 - Calculates order volume, on-time rate, average processing time and exception count.
 - Lists delayed or unresolved orders for human review.
-- Writes a JSON summary to reports/workflow_summary.json.
+- Writes a JSON summary to `reports/workflow_summary.json`.
 
 ## Quick start
 Requires Python 3.10+ and uses only the Python standard library.
 
+```bash
 python workflow_audit.py
+python -m unittest discover -s tests -v
+```
 
 ## Additional example: Workflow Reliability Lab
-See the new [Workflow Reliability Lab](examples/workflow_reliability_lab/README.md). It demonstrates event validation, duplicate detection, destination acknowledgement monitoring and exception reporting for a fictional order-notification workflow. It includes synthetic CSV fixtures, an architecture diagram and five unit tests.
+See [Workflow Reliability Lab](examples/workflow_reliability_lab/README.md). It demonstrates event validation, duplicate detection, destination acknowledgement monitoring and exception reporting for a fictional order-notification workflow. It includes synthetic CSV fixtures, an architecture diagram and unit tests.
 
 ## Safety and scope
 - Educational demonstrations only; not production software.
 - No external services, API keys, network calls or customer data.
 - No automatic changes to orders or business systems.
 - Human review is required before operational decisions.
+- All sample records are synthetic. Never commit employer, client, supplier, colleague or customer data.
 
-All sample records are synthetic. Never commit employer, client, supplier, colleague or customer data.
+## Article workflow
+WordPress is the public publishing source of truth. Markdown files in this repository are version-controlled editorial snapshots. Keep the WordPress post ID, status and canonical URL in front matter, and update the snapshot when the article changes. A Git commit does not publish a WordPress post.
 
-## Project structure
-workflow_audit.py
-examples/sample_orders.csv
-examples/workflow_reliability_lab/
-docs/automation-readiness-checklist.md
-docs/safe-demo-guidelines.md
-tests/
-.github/workflows/tests.yml
-
-MIT licence — see LICENSE.
+MIT licence — see [LICENSE](LICENSE).
