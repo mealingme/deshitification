@@ -1,0 +1,7 @@
+reading_id,asset_id,sensor_id,recorded_at,temperature_c,lower_limit_c,upper_limit_c
+read-001,FREEZER-A,sensor-A,2026-11-15T08:00:00Z,-18.0,-25.0,-15.0
+read-002,FREEZER-A,sensor-A,2026-11-15T08:05:00Z,-14.5,-25.0,-15.0
+read-003,FREEZER-A,sensor-A,2026-11-15T08:30:00Z,-18.2,-25.0,-15.0
+read-004,CHILLER-B,sensor-B,2026-11-15T08:00:00Z,3.1,2.0,5.0
+read-005,CHILLER-B,sensor-B,2026-11-15T08:10:00Z,4.0,2.0,5.0
+read-006,FREEZER-C,sensor-C,2026-11-15T08:00:00Z,-19.0,-25.0,-15.0
