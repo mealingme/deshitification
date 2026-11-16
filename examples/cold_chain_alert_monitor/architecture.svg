@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+<title id="title">Cold-chain reading review flow</title>
+<desc id="desc">Synthetic temperature readings are validated, compared with configured example limits, checked for gaps and exported as a human-reviewed exception report. No real refrigeration systems are connected.</desc>
+<rect width="1200" height="430" rx="24" fill="#f4f7fa"/>
+<text x="60" y="58" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#102a43">Cold-Chain Alert Monitor</text>
+<text x="60" y="91" font-family="Arial, sans-serif" font-size="16" fill="#526579">Synthetic CSV only · read-only checks · no live equipment connection</text>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<rect x="55" y="160" width="205" height="112" rx="16" fill="#d9edf0" stroke="#2a7f87" stroke-width="2"/>
+<text x="157" y="202" font-size="20" font-weight="700" fill="#102a43">Readings CSV</text><text x="157" y="232" font-size="15" fill="#36566d">Asset · sensor · time</text>
+<rect x="335" y="160" width="205" height="112" rx="16" fill="#e7eaf3" stroke="#52658a" stroke-width="2"/>
+<text x="437" y="202" font-size="20" font-weight="700" fill="#102a43">Validate</text><text x="437" y="232" font-size="15" fill="#36566d">IDs · timestamps · values</text>
+<rect x="615" y="160" width="205" height="112" rx="16" fill="#e7f2e9" stroke="#39845b" stroke-width="2"/>
+<text x="717" y="202" font-size="20" font-weight="700" fill="#102a43">Check</text><text x="717" y="232" font-size="15" fill="#36566d">Limits · event gaps</text>
+<rect x="895" y="160" width="250" height="112" rx="16" fill="#fff0d9" stroke="#c77a22" stroke-width="2"/>
+<text x="1020" y="202" font-size="20" font-weight="700" fill="#102a43">Review report</text><text x="1020" y="232" font-size="15" fill="#36566d">CSV · human decision</text>
+<g stroke="#526579" stroke-width="4" fill="none"><path d="M260 216 H325"/><path d="M540 216 H605"/><path d="M820 216 H885"/></g>
+<g fill="#526579"><path d="M315 206 l12 10 -12 10z"/><path d="M595 206 l12 10 -12 10z"/><path d="M875 206 l12 10 -12 10z"/></g>
+<rect x="330" y="330" width="540" height="58" rx="14" fill="#fde7e5" stroke="#c65a52" stroke-width="2"/>
+<text x="600" y="365" font-size="18" font-weight="700" fill="#8b302b">No control actions · no notifications · no safety decision</text>
+</g>
+</svg>
