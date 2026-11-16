@@ -31,6 +31,10 @@ python workflow_audit.py
 python -m unittest discover -s tests -v
 ```
 
+## Additional example: Cold-Chain Alert Monitor
+
+See [Cold-Chain Alert Monitor](examples/cold_chain_alert_monitor/README.md). It inspects fictional temperature readings, flags values outside supplied example limits, detects gaps between sensor events and exports a human-review CSV. It is read-only and has no live equipment connection. The configured thresholds are illustrative, not food-safety guidance.
+
 ## Additional example: Workflow Reliability Lab
 See [Workflow Reliability Lab](examples/workflow_reliability_lab/README.md). It demonstrates event validation, duplicate detection, destination acknowledgement monitoring and exception reporting for a fictional order-notification workflow. It includes synthetic CSV fixtures, an architecture diagram and unit tests.
 
