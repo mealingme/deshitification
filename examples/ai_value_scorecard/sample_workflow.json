@@ -1,0 +1,13 @@
+{
+  "monthly_volume": 200,
+  "baseline_minutes_per_case": 8,
+  "assisted_minutes_per_case": 5,
+  "human_review_minutes_per_case": 1,
+  "monthly_maintenance_hours": 2,
+  "loaded_hourly_rate_eur": 30,
+  "monthly_tool_cost_eur": 50,
+  "monthly_other_cash_cost_eur": 10,
+  "one_time_setup_cost_eur": 600,
+  "setup_amortisation_months": 12,
+  "measured_monthly_cash_savings_eur": 0
+}
