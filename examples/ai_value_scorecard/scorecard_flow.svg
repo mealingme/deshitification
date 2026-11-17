@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="560" viewBox="0 0 1080 560" role="img" aria-labelledby="title desc">
+  <title id="title">AI workflow value scorecard calculation flow</title>
+  <desc id="desc">Baseline time is compared with assisted processing, human review and maintenance to estimate capacity released. Capacity value is shown separately from measured cash savings. Tool costs and setup amortisation are deducted from both views.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#486581"/></marker>
+    <style>
+      .bg{fill:#F4F7FA}.panel{fill:#FFFFFF;stroke:#BCCCDC;stroke-width:2}.navy{fill:#102A43}.teal{fill:#D9F0EC;stroke:#2C7A7B;stroke-width:2}.blue{fill:#E5EFFA;stroke:#486581;stroke-width:2}.gold{fill:#FFF1D6;stroke:#B7791F;stroke-width:2}.ink{fill:#102A43;font:600 20px Arial,sans-serif}.small{fill:#334E68;font:16px Arial,sans-serif}.white{fill:#FFFFFF;font:700 25px Arial,sans-serif}.arrow{fill:none;stroke:#486581;stroke-width:3;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect class="bg" width="1080" height="560" rx="24"/>
+  <rect class="navy" x="28" y="24" width="1024" height="70" rx="14"/>
+  <text class="white" x="58" y="68">AI WORKFLOW VALUE SCORECARD</text>
+  <text class="small" x="58" y="128">1. Measure time and volume</text>
+  <rect class="panel" x="40" y="148" width="300" height="116" rx="14"/>
+  <text class="ink" x="66" y="188">Baseline workflow</text>
+  <text class="small" x="66" y="220">Cases × current minutes</text>
+  <rect class="panel" x="390" y="148" width="300" height="116" rx="14"/>
+  <text class="ink" x="416" y="188">Assisted workflow</text>
+  <text class="small" x="416" y="220">AI/process time + human review</text>
+  <rect class="panel" x="740" y="148" width="300" height="116" rx="14"/>
+  <text class="ink" x="766" y="188">Ongoing maintenance</text>
+  <text class="small" x="766" y="220">Support and exception time</text>
+  <path class="arrow" d="M190 264 V300 H540 V324"/>
+  <path class="arrow" d="M540 264 V324"/>
+  <path class="arrow" d="M890 264 V300 H540"/>
+  <rect class="teal" x="330" y="324" width="420" height="82" rx="14"/>
+  <text class="ink" x="540" y="358" text-anchor="middle">Net capacity hours released</text>
+  <text class="small" x="540" y="385" text-anchor="middle">Baseline − assisted − maintenance</text>
+  <path class="arrow" d="M540 406 V438 H260 V466"/>
+  <path class="arrow" d="M540 438 H820 V466"/>
+  <rect class="blue" x="40" y="466" width="440" height="72" rx="14"/>
+  <text class="ink" x="260" y="495" text-anchor="middle">Capacity view</text>
+  <text class="small" x="260" y="520" text-anchor="middle">Hours × loaded rate − costs</text>
+  <rect class="gold" x="600" y="466" width="440" height="72" rx="14"/>
+  <text class="ink" x="820" y="495" text-anchor="middle">Cash view</text>
+  <text class="small" x="820" y="520" text-anchor="middle">Measured savings − costs</text>
+</svg>
