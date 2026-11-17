@@ -49,3 +49,7 @@ See [Workflow Reliability Lab](examples/workflow_reliability_lab/README.md). It 
 WordPress is the public publishing source of truth. Markdown files in this repository are version-controlled editorial snapshots. Keep the WordPress post ID, status and canonical URL in front matter, and update the snapshot when the article changes. A Git commit does not publish a WordPress post.
 
 MIT licence — see [LICENSE](LICENSE).
+
+## Additional example: AI Workflow Value Scorecard
+
+See [AI Workflow Value Scorecard](examples/ai_value_scorecard/README.md). This dependency-free calculator keeps theoretical staff-capacity value separate from measured cash savings, includes human review and maintenance time, and deducts recurring costs plus setup-cost amortisation. The sample data is fictional. An original [calculation-flow diagram](examples/ai_value_scorecard/scorecard_flow.svg) explains the two value views.
