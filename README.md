@@ -53,3 +53,7 @@ MIT licence — see [LICENSE](LICENSE).
 ## Additional example: AI Workflow Value Scorecard
 
 See [AI Workflow Value Scorecard](examples/ai_value_scorecard/README.md). This dependency-free calculator keeps theoretical staff-capacity value separate from measured cash savings, includes human review and maintenance time, and deducts recurring costs plus setup-cost amortisation. The sample data is fictional. An original [calculation-flow diagram](examples/ai_value_scorecard/scorecard_flow.svg) explains the two value views.
+
+## Additional example: Ecommerce Exception Triage
+
+See [Ecommerce Exception Triage](examples/ecommerce_exception_triage/README.md). It validates a fictional order export, detects duplicate IDs, classifies payment and inventory holds, and separates overdue orders from late and on-time dispatches. It writes a human-review CSV and never changes an order or sends a message. An original [triage-flow diagram](examples/ecommerce_exception_triage/triage_flow.svg) shows the read-only design.
