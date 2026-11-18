@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="420" viewBox="0 0 1100 420">
+<rect width="1100" height="420" fill="#f4f7fa"/>
+<text x="48" y="48" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#102a43">Read-only order exception triage</text>
+<text x="48" y="76" font-family="Arial,sans-serif" font-size="15" fill="#486581">Synthetic CSV → validation → deterministic rules → human review queue</text>
+<g font-family="Arial,sans-serif" text-anchor="middle">
+<rect x="45" y="140" width="190" height="120" rx="14" fill="#d9eaf7" stroke="#486581" stroke-width="2"/>
+<text x="140" y="181" font-size="19" font-weight="700" fill="#102a43">CSV export</text>
+<text x="140" y="210" font-size="14" fill="#243b53">Order ID · payment</text><text x="140" y="232" font-size="14" fill="#243b53">stock · dispatch · dates</text>
+<path d="M235 200 H290 M280 191 L292 200 L280 209" stroke="#486581" stroke-width="3" fill="none"/>
+<rect x="295" y="140" width="190" height="120" rx="14" fill="#e5e7eb" stroke="#64748b" stroke-width="2"/>
+<text x="390" y="181" font-size="19" font-weight="700" fill="#102a43">Validate</text>
+<text x="390" y="210" font-size="14" fill="#243b53">Required fields</text><text x="390" y="232" font-size="14" fill="#243b53">Dates · duplicate IDs</text>
+<path d="M485 200 H540 M530 191 L542 200 L530 209" stroke="#486581" stroke-width="3" fill="none"/>
+<rect x="545" y="140" width="190" height="120" rx="14" fill="#e2f0e9" stroke="#3b6b63" stroke-width="2"/>
+<text x="640" y="181" font-size="19" font-weight="700" fill="#102a43">Classify</text>
+<text x="640" y="210" font-size="14" fill="#243b53">Payment · stock</text><text x="640" y="232" font-size="14" fill="#243b53">Promised vs actual date</text>
+<path d="M735 200 H790 M780 191 L792 200 L780 209" stroke="#486581" stroke-width="3" fill="none"/>
+<rect x="795" y="140" width="250" height="120" rx="14" fill="#fff0d9" stroke="#a66a21" stroke-width="2"/>
+<text x="920" y="181" font-size="19" font-weight="700" fill="#102a43">Review queue</text>
+<text x="920" y="210" font-size="14" fill="#243b53">Status + reason</text><text x="920" y="232" font-size="14" fill="#243b53">Human checks source system</text>
+<path d="M920 260 V310 M911 300 L920 312 L929 300" stroke="#a66a21" stroke-width="2.5" fill="none"/>
+<rect x="720" y="320" width="400" height="64" rx="12" fill="#102a43"/>
+<text x="920" y="359" font-size="17" font-weight="700" fill="#ffffff">No order changes or automatic messages</text>
+</g></svg>
