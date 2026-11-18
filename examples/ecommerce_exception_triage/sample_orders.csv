@@ -1,0 +1,8 @@
+order_id,payment_status,inventory_status,dispatch_status,promised_date,dispatched_date
+DEMO-1001,paid,allocated,dispatched,2026-11-16,2026-11-16
+DEMO-1002,pending,allocated,not_dispatched,2026-11-18,
+DEMO-1003,paid,unavailable,not_dispatched,2026-11-17,
+DEMO-1004,paid,allocated,not_dispatched,2026-11-17,
+DEMO-1005,paid,allocated,dispatched,2026-11-17,2026-11-18
+DEMO-1006,paid,allocated,cancelled,2026-11-18,
+DEMO-1007,paid,allocated,not_dispatched,2026-11-20,
