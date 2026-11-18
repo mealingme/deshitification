@@ -15,25 +15,25 @@ A small, read-only Python example that classifies a fictional ecommerce order ex
 
 Requires Python 3.10+ and only the standard library.
 
-\`\`\`bash
+```bash
 python examples/ecommerce_exception_triage/triage.py --as-of 2026-11-18
 python examples/ecommerce_exception_triage/triage.py --as-of 2026-11-18 --output reports/ecommerce_exceptions.csv
 python -m unittest discover -s tests -v
-\`\`\`
+```
 
-The default input is the included synthetic CSV. Supply another CSV with the same six columns using \`--input\`.
+The default input is the included synthetic CSV. Supply another CSV with the same six columns using `--input`.
 
 ## Classification rules
 
 | Status | Meaning |
 |---|---|
-| \`DATA_ERROR\` | Missing/invalid fields, inconsistent dates or duplicate ID; correct the source before relying on the row |
-| \`CANCELLED\` | Order is marked cancelled |
-| \`HOLD\` | Payment is not paid or inventory is not allocated |
-| \`LATE\` | Dispatched after the promised date |
-| \`OVERDUE\` | Not dispatched and promised date has passed |
-| \`COMPLETE_ON_TIME\` | Dispatched on or before the promised date |
-| \`ON_TRACK\` | Not dispatched, but the promised date has not passed |
+| `DATA_ERROR` | Missing/invalid fields, inconsistent dates or duplicate ID; correct the source before relying on the row |
+| `CANCELLED` | Order is marked cancelled |
+| `HOLD` | Payment is not paid or inventory is not allocated |
+| `LATE` | Dispatched after the promised date |
+| `OVERDUE` | Not dispatched and promised date has passed |
+| `COMPLETE_ON_TIME` | Dispatched on or before the promised date |
+| `ON_TRACK` | Not dispatched, but the promised date has not passed |
 
 Rules are deliberately simple and ordered. A hold takes precedence over lateness because the example treats payment and stock as release gates. Real systems may need different rules, time zones, carrier events, partial shipments, returns, fraud checks and business calendars.
 
