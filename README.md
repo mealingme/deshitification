@@ -57,3 +57,7 @@ See [AI Workflow Value Scorecard](examples/ai_value_scorecard/README.md). This d
 ## Additional example: Ecommerce Exception Triage
 
 See [Ecommerce Exception Triage](examples/ecommerce_exception_triage/README.md). It validates a fictional order export, detects duplicate IDs, classifies payment and inventory holds, and separates overdue orders from late and on-time dispatches. It writes a human-review CSV and never changes an order or sends a message. An original [triage-flow diagram](examples/ecommerce_exception_triage/triage_flow.svg) shows the read-only design.
+
+## Additional example: Reorder-Point Sensitivity Lab
+
+See [Reorder-Point Sensitivity Lab](examples/reorder_point_sensitivity/README.md). It calculates a transparent reorder threshold from fictional daily demand, lead time and manually supplied safety stock, then compares simple low/high sensitivity scenarios. It is read-only, uses only the Python standard library and leaves all purchasing decisions to a human reviewer.
