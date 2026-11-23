@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Static AI agent permission review</title>
+  <desc id="desc">A fictional policy file is checked for broad permissions, secret access, unapproved external sends and unapproved writes. Findings are returned for human review; no settings are changed.</desc>
+  <rect width="1200" height="420" rx="24" fill="#F4F7FA"/>
+  <text x="60" y="62" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#102A43">AI agent permission review</text>
+  <text x="60" y="96" font-family="Arial, sans-serif" font-size="17" fill="#486581">Static checks only · synthetic policy · no live connections</text>
+  <rect x="60" y="150" width="220" height="150" rx="16" fill="#102A43"/>
+  <text x="170" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#FFFFFF">Policy JSON</text>
+  <text x="170" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#D9EAF5">Declared tools</text>
+  <text x="170" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#D9EAF5">and permissions</text>
+  <path d="M280 225 H350" stroke="#627D98" stroke-width="4" fill="none"/>
+  <path d="M338 213 L350 225 L338 237" stroke="#627D98" stroke-width="4" fill="none"/>
+  <rect x="350" y="135" width="330" height="180" rx="16" fill="#D9EAF5" stroke="#627D98" stroke-width="2"/>
+  <text x="515" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#102A43">Rule checks</text>
+  <text x="385" y="218" font-family="Arial, sans-serif" font-size="16" fill="#243B53">• Broad permissions</text>
+  <text x="385" y="246" font-family="Arial, sans-serif" font-size="16" fill="#243B53">• Secret access</text>
+  <text x="385" y="274" font-family="Arial, sans-serif" font-size="16" fill="#243B53">• External sends / writes</text>
+  <path d="M680 225 H750" stroke="#627D98" stroke-width="4" fill="none"/>
+  <path d="M738 213 L750 225 L738 237" stroke="#627D98" stroke-width="4" fill="none"/>
+  <rect x="750" y="150" width="190" height="150" rx="16" fill="#EAF4F1" stroke="#2F855A" stroke-width="2"/>
+  <text x="845" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#22543D">JSON report</text>
+  <text x="845" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#22543D">Severity +</text>
+  <text x="845" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#22543D">recommendations</text>
+  <path d="M940 225 H1000" stroke="#627D98" stroke-width="4" fill="none"/>
+  <path d="M988 213 L1000 225 L988 237" stroke="#627D98" stroke-width="4" fill="none"/>
+  <rect x="1000" y="150" width="150" height="150" rx="16" fill="#FFF4D6" stroke="#B7791F" stroke-width="2"/>
+  <text x="1075" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#744210">Human</text>
+  <text x="1075" y="233" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#744210">review</text>
+  <text x="600" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#9B2C2C">No policy changes · no tool execution · no secrets read</text>
+</svg>
