@@ -1,0 +1,38 @@
+{
+  "agent_name": "fictional-order-support-agent",
+  "audit_logging_enabled": true,
+  "tools": [
+    {
+      "name": "read_order_summary",
+      "permissions": ["orders:read"],
+      "reads_sensitive_data": true,
+      "sends_external_data": false,
+      "accesses_secrets": false,
+      "requires_human_approval": false
+    },
+    {
+      "name": "send_customer_email",
+      "permissions": ["email:send"],
+      "reads_sensitive_data": true,
+      "sends_external_data": true,
+      "accesses_secrets": true,
+      "requires_human_approval": false
+    },
+    {
+      "name": "update_order",
+      "permissions": ["orders:write"],
+      "reads_sensitive_data": true,
+      "sends_external_data": false,
+      "accesses_secrets": false,
+      "requires_human_approval": false
+    },
+    {
+      "name": "legacy_admin_tool",
+      "permissions": ["*"],
+      "reads_sensitive_data": true,
+      "sends_external_data": false,
+      "accesses_secrets": false,
+      "requires_human_approval": false
+    }
+  ]
+}
