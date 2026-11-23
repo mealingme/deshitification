@@ -61,3 +61,7 @@ See [Ecommerce Exception Triage](examples/ecommerce_exception_triage/README.md).
 ## Additional example: Reorder-Point Sensitivity Lab
 
 See [Reorder-Point Sensitivity Lab](examples/reorder_point_sensitivity/README.md). It calculates a transparent reorder threshold from fictional daily demand, lead time and manually supplied safety stock, then compares simple low/high sensitivity scenarios. It is read-only, uses only the Python standard library and leaves all purchasing decisions to a human reviewer.
+
+## Additional example: AI Agent Permission Review
+
+See [AI Agent Permission Review](examples/agent_permission_review/README.md). It statically checks a fictional agent-tool policy for wildcard permissions, secret access, sensitive external sends without approval and writes without approval. It is read-only, uses synthetic configuration and does not inspect a live agent or credential values.
