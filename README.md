@@ -65,3 +65,15 @@ See [Reorder-Point Sensitivity Lab](examples/reorder_point_sensitivity/README.md
 ## Additional example: AI Agent Permission Review
 
 See [AI Agent Permission Review](examples/agent_permission_review/README.md). It statically checks a fictional agent-tool policy for wildcard permissions, secret access, sensitive external sends without approval and writes without approval. It is read-only, uses synthetic configuration and does not inspect a live agent or credential values.
+
+
+## Agent team and authority
+See [AGENT_TEAM.md](AGENT_TEAM.md) for the team chart, role descriptions and current approval boundaries.
+
+## Agent instructions
+- [Oliver Grant — Operations Orchestrator](agents/operations_orchestrator.md)
+- [Alex Morgan — Enquiry Manager](agents/enquiry_manager.md)
+- [Priya Shah — Finance & Approval Controller](agents/finance_approval_controller.md)
+- [Maya Bennett — Marketing Producer](agents/marketing_producer.md)
+- [Theo Williams — Technical Researcher](agents/technical_researcher.md)
+- [Riley Chen — Quality & Risk Reviewer](agents/quality_risk_reviewer.md)
